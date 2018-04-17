@@ -7,7 +7,25 @@ header {
   display: block;
 }
 
+nav {
+  border-top-width: 1px;
+  border-top-color: #ececec;
+  border-top-style: solid;
+  font-family: Playfair Display, Georgia, serif;
+}
 
-/*border-bottom-width: 1px;
-  border-bottom-color: #ececec;
-  border-top-style: solid;*/
+nav ul {
+  text-align:center;
+}
+
+nav ul li {
+  list-style-type: none;
+  display:inline-block;
+  margin: auto 10px;
+  font-size: 17px;
+}
+
+nav ul li a {
+  color: #6e6e6e;
+  text-decoration: none;
+}
