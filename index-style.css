@@ -1,1 +1,13 @@
 /*style sheet for the homepage*/
+
+header {
+  font-family: Playfair Display, Georgia, serif;
+  margin-top: 45px;
+  text-align: center;
+  display: block;
+}
+
+
+/*border-bottom-width: 1px;
+  border-bottom-color: #ececec;
+  border-top-style: solid;*/
