@@ -2,6 +2,7 @@
 
 header {
   font-family: Playfair Display, Georgia, serif;
+  font-size: 20px;
   margin-top: 45px;
   text-align: center;
   display: block;
@@ -28,4 +29,33 @@ nav ul li {
 nav ul li a {
   color: #6e6e6e;
   text-decoration: none;
+}
+
+h2 {
+  font-family: Playfair Display, Georgia, serif;
+  font-size: 30px;
+}
+
+section {
+  width:629px;
+  height:665px;
+  padding-bottom:25px;
+  margin:50;
+  float:left;
+  text-align:justify;
+}
+
+aside {
+  float:right;
+  width:27%;}
+
+#banner img {
+  height:304px;
+  width:1356px;}
+
+#page-wrap {
+  margin-left: 134.5px;
+  margin-right: 134.5px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
