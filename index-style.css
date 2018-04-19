@@ -1,4 +1,4 @@
-/*style sheet for the homepage*/
+/*style sheet for the homepage of camilleginnever.com*/
 
 header {
   font-family: Playfair Display, Georgia, serif;
@@ -26,10 +26,18 @@ nav ul li {
   font-size: 17px;
 }
 
+nav ul li+li:before {
+  content:'/';
+  margin-right:20px;
+  color:#6d6d6d;
+}
+
 nav ul li a {
   color: #6e6e6e;
   text-decoration: none;
 }
+
+nav ul li a:hover {color:#008f8f;}
 
 h2 {
   font-family: Playfair Display, Georgia, serif;
@@ -45,9 +53,33 @@ section {
   text-align:justify;
 }
 
+section p {
+  font-family: Georgia, serif;
+}
+
+h3 {
+  font-size: 18px;
+  font-family: Lato, Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: 1px;
+}
+
+h3:after {
+  content: '';
+  display: block;
+  width: 219px;
+  border-bottom: 2px solid #008f8f;
+}
+
 aside {
-  float:right;
-  width:27%;}
+  float: right;
+  margin-right: 20px;
+  width: 27%;
+  font-family: Lato, Helvetica, sans-serif;
+  font-size: 16px;
+  text-align:justify;
+}
 
 #banner img {
   height:304px;
@@ -58,4 +90,12 @@ aside {
   margin-right: 134.5px;
   padding-top: 60px;
   padding-bottom: 60px;
+}
+
+footer {
+  clear: both;
+  color: #999999;
+  font-family: Playfair Display, Georgia, serif;
+  text-align:center;
+  margin-bottom:45px;
 }
