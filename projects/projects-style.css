@@ -106,8 +106,8 @@ section a:hover {
 
 aside {
   float: right;
-  margin-right: 20px;
-  width: 27%;
+  margin-right: 60px;
+  width: 23%;
   font-family: Lato, Helvetica, sans-serif;
   font-size: 16px;
   text-align:justify;
@@ -129,5 +129,6 @@ footer {
   text-align: justify;
   color: #999999;
   margin: 0 auto;
+  padding-top: 30px;
   padding-bottom: 15px;
 }
