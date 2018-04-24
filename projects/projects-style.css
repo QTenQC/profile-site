@@ -5,9 +5,8 @@ header {
   font-size: 20px;
   margin-top: 45px;
   display: block;
+  text-align: center;
 }
-
-h1 {text-align: center;}
 
 h2 {
   font-family: Playfair Display, Georgia, serif;
