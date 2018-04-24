@@ -1,0 +1,38 @@
+/*stylesheet for CV page*/
+
+
+h3 {
+  display:inline;
+  font-family: Playfair Display, Georgia, serif;
+  font-size: 25px;
+  font-weight: 700;
+  text-align: left;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+}
+
+h4 {
+  display: inline;
+  font-family: Georgia, serif;
+  font-size: 17.85px;
+  font-weight: 700;
+  text-align:left;
+  line-height: 30px;
+}
+
+
+h6 {
+  font-size: 18px;
+  font-family: Lato, Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: 1px;
+}
+
+h6:after {
+  content: '';
+  display: block;
+  width: 219px;
+  border-bottom: 2px solid #008f8f;
+}
+
