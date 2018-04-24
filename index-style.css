@@ -8,6 +8,11 @@ header {
   display: block;
 }
 
+::selection {
+  background: #333333;
+  color: #ffffff;
+}
+
 nav {
   border-top-width: 1px;
   border-top-color: #ececec;
@@ -57,7 +62,9 @@ section {
 
 section p {
   font-family: Georgia, serif;
-  line-height: 1.5
+  line-height: 30px;
+  font-size: 17.85px;
+  font-weight: 100;
 }
 
 h3 {
