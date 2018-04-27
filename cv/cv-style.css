@@ -119,6 +119,13 @@ aside {
   text-align:justify;
 }
 
-footer {clear:both;}
+footer {
+  clear: both;
+  color: #999999;
+  font-family: Playfair Display, Georgia, serif;
+  text-align: center;
+  padding-top: 75px;
+  margin-bottom: 45px;
+}
 
 
