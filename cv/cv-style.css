@@ -9,6 +9,18 @@ header {
   display: block;
 }
 
+header a {
+  text-decoration: none;
+}
+
+header a:visted {
+  color: #111111;
+}
+
+header a:hover {
+  color: #008f8f;
+}
+
 nav {
   border-top-width: 1px;
   border-top-color: #ececec;
