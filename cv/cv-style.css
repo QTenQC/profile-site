@@ -73,6 +73,15 @@ h4 {
   line-height: 30px;
 }
 
+h5 {
+  font-family: Georgia, serif;
+  font-size: 17.85px;
+  font-style: italic;
+  line-height: 30.345px;
+  display: inline;
+  font-weight: 100;
+}
+
 pre {
   font-family: Georgia, serif;
   font-size: 17.85px;
@@ -98,7 +107,6 @@ h6:after {
 
 section {
   width: 629px;
-  height: 665px;
   padding-bottom: 25px;
   margin: 50;
   float: left;
