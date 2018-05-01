@@ -8,6 +8,20 @@ header {
   text-align: center;
 }
 
+header a {
+  text-decoration: none;
+  color: #111111;
+}
+
+header a:visted {
+  color: #111111;
+  text-decoration: none;
+}
+
+header a:hover {
+  color: #008f8f;
+}
+
 h2 {
   font-family: Playfair Display, Georgia, serif;
   font-size: 30px;
