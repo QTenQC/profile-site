@@ -59,6 +59,13 @@ nav ul li a:hover {
   width: 1356px;
 }
 
+#page-wrap {
+  margin-left: 134.5px;
+  margin-right: 134.5px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
 section {
   width: 629px;
   height: 665px;
@@ -93,6 +100,11 @@ h3:after {
   display: block;
   width: 219px;
   border-bottom: 2px solid #008f8f;
+}
+
+input {
+  width: 300px;
+  background-color: #fafafa;
 }
 
 aside {
