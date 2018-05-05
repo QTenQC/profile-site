@@ -102,9 +102,25 @@ h3:after {
   border-bottom: 2px solid #008f8f;
 }
 
+form p {
+  font-family: Lato, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 3px;
+  line-height: 30px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+
 input {
   width: 300px;
   background-color: #fafafa;
+  padding-bottom: 10px;
+  background-origin: padding-box;
+  font-size: 18px;
+  text-align: start;
+  white-space: pre-wrap;
+  font-family: Lato, Helvetica, sans-serif;
 }
 
 aside {
