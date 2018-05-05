@@ -1,0 +1,152 @@
+/*stylesheet for CV page*/
+
+
+header {
+  font-family: Playfair Display, Georgia, serif;
+  font-size: 20px;
+  margin-top: 45px;
+  text-align: center;
+  display: block;
+}
+
+header a {
+  text-decoration: none;
+  color: #111111;
+}
+
+header a:visted {
+  color: #111111;
+}
+
+header a:hover {
+  color: #008f8f;
+}
+
+nav {
+  border-top-width: 1px;
+  border-top-color: #ececec;
+  border-top-style: solid;
+  font-family: Playfair Display, Georgia, serif;
+}
+
+nav ul {
+  text-align: center;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  margin: auto 10px;
+  font-size: 17px;
+}
+
+nav ul li+li:before {
+  content: '/';
+  margin-right: 20px;
+  color: #6d6d6d;
+}
+
+nav ul li a {
+  color: #6e6e6e;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color:#008f8f;
+}
+
+#banner img {
+  height: 304px;
+  width: 1356px;
+}
+
+#page-wrap {
+  margin-left: 134.5px;
+  margin-right: 134.5px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+h3 {
+  display:inline;
+  font-family: Playfair Display, Georgia, serif;
+  font-size: 25px;
+  font-weight: 700;
+  text-align: left;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+}
+
+h4 {
+  display: inline;
+  font-family: Georgia, serif;
+  font-size: 17.85px;
+  font-weight: 700;
+  text-align:left;
+  line-height: 30px;
+}
+
+h5 {
+  font-family: Georgia, serif;
+  font-size: 17.85px;
+  font-style: italic;
+  line-height: 30.345px;
+  display: inline;
+  font-weight: 100;
+}
+
+pre {
+  font-family: Georgia, serif;
+  font-size: 17.85px;
+  line-height: 30px;
+  text-align: left;
+}
+
+
+h6 {
+  font-size: 18px;
+  font-family: Lato, Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: 1px;
+}
+
+h6:after {
+  content: '';
+  display: block;
+  width: 219px;
+  border-bottom: 2px solid #008f8f;
+}
+
+section {
+  width: 629px;
+  padding-bottom: 25px;
+  margin: 50;
+  float: left;
+  text-align: justify;
+}
+
+section p {
+  font-family: Georgia, serif;
+  line-height: 1.5
+}
+
+aside {
+  float: right;
+  margin-right: 60px;
+  width: 23%;
+  font-family: Lato, Helvetica, sans-serif;
+  font-size: 16px;
+  text-align:justify;
+}
+
+footer {
+  clear: both;
+  color: #999999;
+  font-family: Playfair Display, Georgia, serif;
+  text-align: center;
+  padding-top: 75px;
+  margin-bottom: 45px;
+}
+
+

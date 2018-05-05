@@ -8,6 +8,11 @@ header {
   display: block;
 }
 
+::selection {
+  background: #333333;
+  color: #ffffff;
+}
+
 nav {
   border-top-width: 1px;
   border-top-color: #ececec;
@@ -57,6 +62,9 @@ section {
 
 section p {
   font-family: Georgia, serif;
+  line-height: 30px;
+  font-size: 17.85px;
+  font-weight: 100;
 }
 
 h3 {
@@ -76,11 +84,11 @@ h3:after {
 
 aside {
   float: right;
-  margin-right: 20px;
-  width: 27%;
+  margin-right: 60px;
+  width: 23%;
   font-family: Lato, Helvetica, sans-serif;
   font-size: 16px;
-  text-align: justify;
+  text-align:justify;
 }
 
 #banner img {
@@ -100,5 +108,6 @@ footer {
   color: #999999;
   font-family: Playfair Display, Georgia, serif;
   text-align: center;
+  padding-top: 75px;
   margin-bottom: 45px;
 }
