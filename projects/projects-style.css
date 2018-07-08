@@ -93,11 +93,15 @@ nav ul li a:hover {
 
 section {
   width: 629px;
-  height: 665px;
-  padding-bottom: 190px;
+  height: 870px;
+  padding: 25px;
   margin: 50;
+  margin-top: -120px;
+  position: relative;
   float: left;
   text-align: justify;
+  background-color: white;
+  border: solid whitesmoke 1px;
 
 }
 
