@@ -1,5 +1,9 @@
 /*stylesheet for CV page*/
 
+body {
+  background-color: #fdfdfd;
+  margin: 0 auto;
+}
 
 header {
   font-family: Playfair Display, Georgia, serif;
@@ -56,8 +60,8 @@ nav ul li a:hover {
 }
 
 #banner img {
-  height: 304px;
-  width: 1356px;
+  width: 100%;
+  max-width: 2000px;
 }
 
 #page-wrap {
