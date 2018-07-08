@@ -100,6 +100,8 @@ pre {
   font-size: 17.85px;
   line-height: 30px;
   text-align: left;
+  word-wrap: break-word;
+  white-space: pre-wrap;
 }
 
 
@@ -124,6 +126,7 @@ section {
   margin: 50;
   float: left;
   text-align: justify;
+  word-wrap: break-word;
 }
 
 section p {
