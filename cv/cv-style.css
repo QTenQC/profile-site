@@ -90,7 +90,7 @@ h4 {
   line-height: 30px;
 }
 
-h5 {
+time {
   font-family: Georgia, serif;
   font-size: 17.85px;
   font-style: italic;
@@ -99,17 +99,31 @@ h5 {
   font-weight: 100;
 }
 
-pre {
+.institutions li, .details li {
   font-family: Georgia, serif;
   font-size: 17.85px;
-  line-height: 30px;
+  line-height: 27px;
   text-align: left;
   word-wrap: break-word;
   white-space: pre-wrap;
 }
 
+.details li {
+  margin-bottom: 7px;
+}
 
-h6 {
+ol {
+  list-style-type: none;
+  list-style-position: inside;
+  padding: 0;
+  line-height: 1.5;
+}
+
+ul {
+  list-style-type: none;
+}
+
+h5 {
   font-size: 18px;
   font-family: Lato, Helvetica, sans-serif;
   text-transform: uppercase;
@@ -117,7 +131,7 @@ h6 {
   letter-spacing: 1px;
 }
 
-h6:after {
+h5:after {
   content: '';
   display: block;
   width: 219px;
