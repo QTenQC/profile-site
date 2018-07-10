@@ -2,6 +2,13 @@
 <html>
   <head>
     <title>Contact</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="../favicon_package_v0.16-sq/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../favicon_package_v0.16-sq/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../favicon_package_v0.16-sq/favicon-16x16.png">
+    <link rel="manifest" href="../favicon_package_v0.16-sq/site.webmanifest">
+    <link rel="mask-icon" href="../favicon_package_v0.16-sq/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
     <link href="contact-style.css" rel="stylesheet" />
   </head>
 
@@ -27,23 +34,17 @@
     <section>
       <h2>Contact</h2>
         <p>Connect with me on LinkedIn!</p>
-<!--
-        <article>
-          <script src="//platform.linkedin.com/in.js" type="text/javascript"></script>
-          <script type="IN/MemberProfile" data-id="https://www.linkedin.com/in/camille-ginnever-69632878" data-format="inline" data-related="false"></script>
-        </article>
--->
+
+        <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="horizontal" data-theme="light" data-vanity="camille-ginnever-69632878"><a class="LI-simple-link" href='https://ca.linkedin.com/in/camille-ginnever-69632878?trk=profile-badge'>Camille Ginnever</a></div>
+
         <p>or, send me a message:</p>
 <!-- name, email, website, comment* -->
         <form action="" method="post">
-          <p>Name</p><input type="text" name="" value="" />
-          <p>Email (so I can get back to you)</p><input type="text" />
-          <p>Website</p><input type="text" />
-          <p>Comment</p><input type="text" style="padding-bottom: 120px;"/>
-          <button name="submit-button">Submit</button>
-
-
-
+          <p>Name</p><input class="contact-input" type="text" name="" value="" />
+          <p>Email (so I can get back to you)</p><input class="contact-input" type="text" />
+          <p>Website</p><input class="contact-input" type="text" />
+          <p>Comment</p><input class="contact-input" id="big-box" type="text" />
+          <p><input type="submit" name="submit-button" id="submit-button" /></p>
         </form>
 
     </section>
@@ -56,6 +57,8 @@
     <footer>
       &copy; Camille Ginnever, 2018
     </footer>
+
+    <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
 
   </body>
   </html>

@@ -1,5 +1,10 @@
 /*style sheet for the Projects page*/
 
+body {
+  background-color: #fdfdfd;
+  margin: 0 auto;
+}
+
 header {
   font-family: Playfair Display, Georgia, serif;
   font-size: 20px;
@@ -82,17 +87,21 @@ nav ul li a:hover {
 }
 
 #banner img {
-  height: 304px;
-  width: 1356px;
+  width: 100%;
+  max-width: 2000px;
 }
 
 section {
   width: 629px;
-  height: 665px;
-  padding-bottom: 190px;
+  height: 870px;
+  padding: 25px;
   margin: 50;
+  margin-top: -120px;
+  position: relative;
   float: left;
   text-align: justify;
+  background-color: white;
+  border: solid whitesmoke 1px;
 
 }
 
